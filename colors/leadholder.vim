@@ -32,8 +32,8 @@ hi! link folded pmenushadow
 hi! link linenr statusline
 hi! link matchparen cursorcolumn
 hi! link nontext pmenushadow
-hi! link pmenu pmenushadow
-hi! link pmenusbar pmenushadow
+hi! link pmenu cursorline
+hi! link pmenusbar toolbarline
 hi! link pmenusel incsearch
 hi! link quickfixline cursorline
 hi! link specialkey pmenushadow
