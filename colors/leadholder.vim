@@ -2,20 +2,24 @@
 " Description:  Minimal colorscheme, for those who favor leadholders
 " Author:       Dorai Sitaram, ds26gte.github.io
 " URL:          https://github.com/ds26gte/leadholder
-" Last Change:  2026-06-16
+" Last Change:  2026-06-17
 
 runtime colors/default.vim
 
 set bg=dark
+set notgc
 
 syn off
 
 hi clear
 
-let g:colors_name = 'leadholder'
+let g:colors_name = expand('<sfile>:t:r')
 
 hi cursorline cterm=NONE ctermbg=236
+hi diffadd ctermfg=35 ctermbg=236
+hi spellbad cterm=underline ctermfg=131 ctermbg=NONE
 hi statusline cterm=NONE ctermfg=239
+hi visual ctermfg=NONE ctermbg=238
 
 hi! link diffdelete normal
 hi! link directory normal
@@ -37,7 +41,6 @@ hi! link pmenusbar toolbarline
 hi! link pmenusel incsearch
 hi! link quickfixline cursorline
 hi! link specialkey pmenushadow
-hi! link spellbad errormsg
 hi! link statuslinenc statusline
 hi! link statuslineterm statusline
 hi! link statuslinetermnc statuslinenc
