@@ -2,7 +2,7 @@
 " Description:  Minimal colorscheme, for those who favor leadholders
 " Author:       Dorai Sitaram, ds26gte.github.io
 " URL:          https://github.com/ds26gte/leadholder
-" Last Change:  2026-06-17
+" Last Change:  2026-06-19
 
 runtime colors/default.vim
 
@@ -24,7 +24,6 @@ hi visual ctermfg=NONE ctermbg=238
 hi! link diffdelete normal
 hi! link directory normal
 hi! link foldcolumn normal
-hi! link modemsg normal
 hi! link moremsg normal
 hi! link question normal
 hi! link tablinefill normal
