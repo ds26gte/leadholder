@@ -2,16 +2,11 @@
 " Description:  Minimal colorscheme, for those who favor leadholders
 " Author:       Dorai Sitaram, ds26gte.github.io
 " URL:          https://github.com/ds26gte/leadholder
-" Last Change:  2026-06-19
+" Last Change:  2026-06-20
 
 runtime colors/default.vim
 
 set bg=dark
-set notgc
-
-syn off
-
-hi clear
 
 let g:colors_name = expand('<sfile>:t:r')
 
