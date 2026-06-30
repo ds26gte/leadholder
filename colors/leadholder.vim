@@ -2,7 +2,7 @@
 " Description:  Minimal colorscheme, for those who favor leadholders
 " Author:       Dorai Sitaram, ds26gte.github.io
 " URL:          https://github.com/ds26gte/leadholder
-" Last Change:  2026-06-20
+" Last Change:  2026-06-29
 
 runtime colors/default.vim
 
@@ -13,6 +13,9 @@ let g:colors_name = expand('<sfile>:t:r')
 hi cursorline cterm=NONE ctermbg=236
 hi diffadd ctermfg=35 ctermbg=236
 hi spellbad cterm=underline ctermfg=131 ctermbg=NONE
+hi spellcap cterm=underline ctermfg=75 ctermbg=NONE
+hi spelllocal cterm=underline ctermfg=117 ctermbg=NONE
+hi spellrare cterm=underline ctermfg=183 ctermbg=NONE
 hi statusline cterm=NONE ctermfg=239
 hi visual ctermfg=NONE ctermbg=238
 
