@@ -2,7 +2,7 @@
 " Description:  Minimal colorscheme
 " Author:       Dorai Sitaram, ds26gte.github.io
 " URL:          https://github.com/ds26gte/leadholder
-" Last Change:  2026-07-26
+" Last Change:  2026-07-27
 
 runtime colors/default.vim
 
@@ -30,19 +30,16 @@ hi! link tablinefill normal
 hi! link diffchange cursorline
 hi! link difftext diffadd
 hi! link endofbuffer statusline
-hi! link folded pmenushadow
+hi! link folded incsearch
 hi! link linenr statusline
 hi! link matchparen diagnostichint
-hi! link nontext pmenushadow
+hi! link nontext diagnostichint
 hi! link pmenu cursorline
 hi! link pmenusbar toolbarline
 hi! link pmenusel incsearch
 hi! link quickfixline cursorline
-hi! link specialkey pmenushadow
 hi! link statuslinenc statusline
 hi! link statuslineterm statusline
 hi! link statuslinetermnc statuslinenc
 hi! link tabline statusline
-hi! link tablinesel pmenushadow
-hi! link title pmenushadow
-hi! link whitespace redrawdebugrecompose
+hi! link tablinesel pmenu
