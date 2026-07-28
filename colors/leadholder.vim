@@ -29,11 +29,10 @@ hi! link tablinefill normal
 
 hi! link diffchange cursorline
 hi! link difftext diffadd
-hi! link endofbuffer statusline
-hi! link folded incsearch
+hi! link folded statusline
 hi! link linenr statusline
 hi! link matchparen diagnostichint
-hi! link nontext diagnostichint
+hi! link nontext statusline
 hi! link pmenu cursorline
 hi! link pmenusbar toolbarline
 hi! link pmenusel incsearch
