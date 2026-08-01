@@ -2,7 +2,7 @@
 " Description:  Minimal colorscheme
 " Author:       Dorai Sitaram, ds26gte.github.io
 " URL:          https://github.com/ds26gte/leadholder
-" Last Change:  2026-07-28
+" Last Change:  2026-08-01
 
 runtime colors/default.vim
 
@@ -25,6 +25,7 @@ hi! link moremsg normal
 hi! link question normal
 hi! link tablinefill normal
 
+hi! link conceal statusline
 hi! link diffchange cursorline
 hi! link difftext diffadd
 hi! link folded statusline
